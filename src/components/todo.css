@@ -1,0 +1,43 @@
+.allTodos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.singleTodo {
+  border-radius: 50px;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #5dadf8;
+  display: flex;
+  width: 450px;
+  align-items: center;
+}
+
+.todoText {
+  text-align: start;
+  flex: 1;
+}
+
+.inputTodo {
+  font-size: 20px;
+  width: 350px;
+  border-radius: 20px;
+  padding: 10px;
+  border: "none";
+}
+
+.goBtn {
+  padding: 12px;
+  border-radius: 25px;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.deleteBtn {
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid white;
+  color: white;
+  background-color: orangered;
+}
